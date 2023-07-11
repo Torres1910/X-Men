@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Projeto X-Men - semana do zero ao programador contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:wght@300;500;800&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/estilos.css"> 
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class= "logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">selecione um personagem </h1>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope"data-name= "Ciclope" data-description="Scott Summers, mais conhecido pelo seu pseudônimo, Ciclope é um personagem americano pertencente ao Universo Marvel Comics. Líder da equipe conhecida como X-Men, foi criado por Stan Lee e Jack Kirby, sua estréia nos quadrinhos foi em Uncanny X-Men #1 (1963). É dono de um AC Cobra vermelho."><img src="./src/imagens/card-ciclope.jpg" alt="personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey"data-name= "Jean Grey" data-description=" Poder de detectar e ler os pensamentos dos outros, projetar seus próprios pensamentos em outras das mentes, formar laços psíquicos com outros seres, controlar mentes dos outros para manipular suas funções físicas, atordoar mentalmente os oponentes com raios de pura força psiônica, criar ilusões mentais quase perfeitas e projeta sua mente e a mente dos outros no plano astral."><img src="./src/imagens/card-jean-grey.jpg"
+                        alt="personagem jean-Grey"></li>
+
+                <li class="personagem" id="lince-negra"data-name= "Lince Ngra" data-description="É uma personagem fictícia das histórias em quadrinhos do Universo Marvel. Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar. Seu grande amor é Colossus. Seu nome verdadeiro é Katherine Anne Pryde, embora seja chamada mais frequentemente de Kitty. Sua primera aparição foi em Uncanny X-Men #129 (janeiro de 1980)."><img src="./src/imagens/card-lince-negra.jpg"
+                        alt="personagem Lince-Negra"></li>
+
+                <li class="personagem" id="tempestade"data-name="Tempestade" data-description="O poder do controle do tempo. Tempestade é a primeira grande personagem feminina da ascendência africana nos quadrinhos. Ela é considerada por alguns como a super-heroína feminina."><img src="./src/imagens/card-tempestade.jpg"
+                        alt="personagem Tempestade"></li>
+
+                <li class="personagem" id="vampira"data-name= "Vampira" data-description="É uma personagem de histórias em quadrinhos da editora Marvel Comics, integrante dos X-Men. Sua primeira aparição foi em The Avengers Annual número 10 de 1981, e seu poder mutante é a habilidade de sugar a vitalidade, memória e poderes de outros seres vivos através do contato com a pele."><img src="./src/imagens/card-vampira.jpg" alt="personagem Vampira">
+                </li>
+
+                <li class="personagem" id="wolverine"data-name= "Wolverine" data-description="Seus poderes são: Talvez a principal habilidade de Wolverine — e aquela que o deixa praticamente imparável — seja seu fator de cura. Este dom mutante é extremamente poderoso e permite que Logan consiga se regenerar em uma velocidade absurda. Imunidade contra contaminantes. Com seu fator de cura, o organismo de Logan é praticamente imune aos vírus, venenos, drogas e praticamente toda substância que poderia contaminá-lo. Por causa disso, o herói precisa beber muito para sentir qualquer efeito de embriaguez e, mesmo assim, consegue se recuperar dessa condição rapidamente."><img src="./src/imagens/card-wolverine.jpg"
+                        alt="personagem Wolverine"></li>
+
+                <li class="personagem" id="noturno"data-name= "Noturno" data-description="Possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede. Sua mutações físicas incluem a pele azul, três dedos nos pés e mãos (incluindo o polegar), olhos amarelos, e uma cauda preênsil."><img src="./src/imagens/card-noturno.jpg" alt="personagem Noturno">
+                </li>
+
+            <li class="personagem" id="magneto"data-name= "Magneto" data-description="Pode ser mais famoso por seus poderes magnéticos, mas sua conexão com os campos eletromagnéticos da Terra também lhe dá algum controle sobre o resto do espectro eletromagnético. Magneto pode usar seus poderes para criar e absorver eletricidade, e também pode gerar um escudo de energia elétrica ao seu redor."><img src="./src/imagens/card-magneto.jpg" alt="personagem Magneto">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem"></p>
+            </div>
+
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
